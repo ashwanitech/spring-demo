@@ -10,4 +10,9 @@ public class HomeController {
 	public String homePage() {
 		return "Welcome To Git Hub Project With Jenkins";
 	}
+	
+	@GetMapping("/login")
+	public String login() {
+		return "Welcome To Git Hub Project With Jenkins Login Page";
+	}
 }
